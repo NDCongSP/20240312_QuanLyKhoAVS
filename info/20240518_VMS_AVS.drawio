@@ -1,0 +1,195 @@
+<mxfile host="app.diagrams.net" modified="2024-05-18T10:10:18.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="d8FIpBzsUDLXSQ8exWBH" version="24.4.4" type="device">
+  <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
+    <mxGraphModel dx="868" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2b4e8129b02d487f-1" value="Functions" style="swimlane;html=1;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="70" width="750" height="902.5" as="geometry">
+            <mxRectangle x="180" y="70" width="60" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-2" value="Create Order" style="swimlane;html=1;startSize=20;horizontal=0;dashed=1;" parent="2b4e8129b02d487f-1" vertex="1">
+          <mxGeometry y="20" width="750" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-5" value="Start" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-2" vertex="1">
+          <mxGeometry x="50" y="43.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-2" source="2b4e8129b02d487f-6" target="YaGrPLDGD94IWnxHRnH7-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-6" value="Tạo Order" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="2b4e8129b02d487f-2" vertex="1">
+          <mxGeometry x="110" y="39.99999999999997" width="70" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" parent="2b4e8129b02d487f-2" source="2b4e8129b02d487f-5" target="2b4e8129b02d487f-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2b4e8129b02d487f-2" source="YaGrPLDGD94IWnxHRnH7-24" target="YaGrPLDGD94IWnxHRnH7-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-24" value="In ra QR code Pallet dán vào pallet&lt;br&gt;Format:&lt;br&gt;PalletNo(NEW guid)|Số NK|Ngày nhập kho|Mã hàng&lt;br&gt;&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:171pt&quot; width=&quot;228&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;  &lt;td style=&quot;height:15.0pt;width:171pt&quot; width=&quot;228&quot; class=&quot;xl63&quot; height=&quot;20&quot;&gt;VD: P01001010|202404/001/NK|13/04/2024|1&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-2">
+          <mxGeometry x="340" y="18.5" width="230" height="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-26" value="Đưa vào hàng chờ lệnh để đẩy xuống PLC" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-2">
+          <mxGeometry x="610" y="39.99999999999997" width="70" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-2" source="YaGrPLDGD94IWnxHRnH7-66" target="YaGrPLDGD94IWnxHRnH7-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-69" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" connectable="0" parent="YaGrPLDGD94IWnxHRnH7-68">
+          <mxGeometry x="-0.3189" y="1" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-2" source="YaGrPLDGD94IWnxHRnH7-66" target="YaGrPLDGD94IWnxHRnH7-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="120" />
+              <mxPoint x="645" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-71" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" connectable="0" parent="YaGrPLDGD94IWnxHRnH7-70">
+          <mxGeometry x="-0.7842" y="1" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-66" value="Stock In?" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-2">
+          <mxGeometry x="210" y="18.49999999999997" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-3" value="Stock In" style="swimlane;html=1;startSize=20;horizontal=0;dashed=1;" parent="2b4e8129b02d487f-1" vertex="1">
+          <mxGeometry y="170" width="750" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2b4e8129b02d487f-3" source="YaGrPLDGD94IWnxHRnH7-28" target="YaGrPLDGD94IWnxHRnH7-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-3" source="YaGrPLDGD94IWnxHRnH7-28" target="YaGrPLDGD94IWnxHRnH7-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="65" />
+              <mxPoint x="120" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-28" value="Start" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-3">
+          <mxGeometry x="50" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-3" source="YaGrPLDGD94IWnxHRnH7-33" target="YaGrPLDGD94IWnxHRnH7-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="50" />
+              <mxPoint x="270" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-37" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" connectable="0" parent="YaGrPLDGD94IWnxHRnH7-36">
+          <mxGeometry x="-0.2567" y="1" relative="1" as="geometry">
+            <mxPoint x="5" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-33" value="Scan QR code trên Pallet để bắt đầu (confirm)" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-3">
+          <mxGeometry x="150" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-35" value="Lấy thông tin vị trí gửi xuống PLC" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-3">
+          <mxGeometry x="310" y="50" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-3" source="YaGrPLDGD94IWnxHRnH7-38" target="YaGrPLDGD94IWnxHRnH7-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-38" value="Confirm trên web" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;fillColor=default;" vertex="1" parent="2b4e8129b02d487f-3">
+          <mxGeometry x="162.5" y="130" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2b4e8129b02d487f-4" value="Stock out" style="swimlane;html=1;startSize=20;horizontal=0;dashed=1;" parent="2b4e8129b02d487f-1" vertex="1">
+          <mxGeometry y="350" width="750" height="252.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-43" target="YaGrPLDGD94IWnxHRnH7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-43" value="Start" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="50" y="47.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-49" target="YaGrPLDGD94IWnxHRnH7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-49" value="Lấy thông tin vị trí gửi xuống PLC" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="240" y="41.25" width="70" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-51" target="YaGrPLDGD94IWnxHRnH7-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-51" value="Chọn các pallet cần xuất" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=default;align=center;verticalAlign=middle;fontColor=default;fillColor=default;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="130" y="45" width="75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-57" target="YaGrPLDGD94IWnxHRnH7-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-57" value="Chờ PLC lấy Plalet ra" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="338" y="32.5" width="65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-59" target="YaGrPLDGD94IWnxHRnH7-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-63" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" connectable="0" parent="YaGrPLDGD94IWnxHRnH7-62">
+          <mxGeometry x="-0.1892" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-59" target="YaGrPLDGD94IWnxHRnH7-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-59" value="Scan QR trên Pallet kiểm tra" style="rhombus;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="430" y="22.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-4" source="YaGrPLDGD94IWnxHRnH7-61" target="YaGrPLDGD94IWnxHRnH7-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-61" value="Xuất hàng, Lưu thông tin" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="550" y="32.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-64" value="Quy trình xử lý nếu lấy nhầm (nghien cứu sau)" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="410" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-75" value="Chờ trạng thái PLC gửi về để cập nhật lại dasboard" style="whiteSpace=wrap;html=1;fontSize=8;fontFamily=Verdana;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="2b4e8129b02d487f-4">
+          <mxGeometry x="650" y="32.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-2" value="Transfer" style="swimlane;html=1;startSize=20;horizontal=0;dashed=1;" vertex="1" parent="2b4e8129b02d487f-1">
+          <mxGeometry y="602.5" width="750" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-72" value="Dasboard" style="swimlane;html=1;startSize=20;horizontal=0;dashed=1;" vertex="1" parent="2b4e8129b02d487f-1">
+          <mxGeometry y="752.5" width="750" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-79" value="Cập nhật bằng hightLight trên từng cell theo trạng thái" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;fillColor=default;" vertex="1" parent="YaGrPLDGD94IWnxHRnH7-72">
+          <mxGeometry x="270" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2b4e8129b02d487f-1" source="YaGrPLDGD94IWnxHRnH7-35" target="YaGrPLDGD94IWnxHRnH7-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2b4e8129b02d487f-1" source="YaGrPLDGD94IWnxHRnH7-26" target="YaGrPLDGD94IWnxHRnH7-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="79" />
+              <mxPoint x="690" y="160" />
+              <mxPoint x="30" y="160" />
+              <mxPoint x="30" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-1" source="YaGrPLDGD94IWnxHRnH7-28" target="YaGrPLDGD94IWnxHRnH7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YaGrPLDGD94IWnxHRnH7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;fontColor=default;labelBackgroundColor=none;" edge="1" parent="2b4e8129b02d487f-1" source="YaGrPLDGD94IWnxHRnH7-75" target="YaGrPLDGD94IWnxHRnH7-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="770" />
+              <mxPoint x="330" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
